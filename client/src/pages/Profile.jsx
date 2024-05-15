@@ -27,9 +27,7 @@ const storage = getStorage(app)
 const filename =  new Date().getTime()+ file.name;
 const storageRef = ref(storage,filename);
 const uploadTask = uploadBytesResumable(storageRef,file)
-console.log(formData)
-console.log(filePerc)
-console.log(fileUploadError)
+
 
 
 
